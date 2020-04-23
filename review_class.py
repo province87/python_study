@@ -5,5 +5,7 @@ class review_class:
         self.name=name
         self.sex=sex
         self.age=age
-        print(name,sex,age)
-review_class("小明","男",16)
+    def count(self):
+        print(self.name,self.sex,self.age)
+r_name=review_class("小明","男",16)
+r_name.count()
